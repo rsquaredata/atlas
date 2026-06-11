@@ -90,24 +90,23 @@ ATLAS focuses on extracting entities and relationships such as:
 
 ### Entities
 
-```
 | Type	| Examples |
+|-|-|
 | Papers | AIDE, AutoKaggle |
 | Methods |	Tree Search, Multi-Agent Systems |
 | Datasets |	MLE-Bench |
 | Tasks	| Feature Engineering |
 | Metrics	| Accuracy, F1-score |
-```
 
 ### Relationships
 
-```
 | Relation	| Example |
+|-|-|
 | uses | AutoKaggle → Multi-Agent System |
 | evaluated_on |	AutoKaggle → MLE-Bench |
 | improves |	Method A → Baseline B |
 | appplied_to	| Method → Task |
-```
+
 These elements are represented as a lightweight knowledge graph.
 
 ---
