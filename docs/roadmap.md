@@ -6,9 +6,9 @@ V0
 ✓ Graph construction
 
 V1
-□ Move logic into src/atlas
-□ MistralExtractor
-□ GraphBuilder
+✓ Move logic into src/atlas
+✓ MistralExtractor
+✓ GraphBuilder
 
 V2
 □ Scientific paper ingestion
