@@ -2,6 +2,9 @@ from sentence_transformers import SentenceTransformer
 
 from sklearn.metrics.pairwise import cosine_similarity
 
+from atlas.normalization import (
+    normalize_concept
+)
 
 class EmbeddingModel:
 
@@ -23,11 +26,22 @@ class EmbeddingModel:
         )
     
     def similarity(
-            self,
-            text_a: str,
-            text_b: str
+        self,
+        text_a: str,
+        text_b: str
     ):
-        vectors = self.encode([text_a, text_b])
+
+        text_a = normalize_concept(
+        text_a
+        )
+
+        text_b = normalize_concept(
+            text_b
+        )
+
+        vectors = self.encode(
+            [text_a, text_b]
+        )
 
         return cosine_similarity(
             [vectors[0]],
