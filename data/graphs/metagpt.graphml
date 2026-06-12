@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="edge" attr.name="relation" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="MetaGPT">
+      <data key="d0">Framework</data>
+    </node>
+    <node id="LLM-based multi-agent systems">
+      <data key="d0">ScientificConcept</data>
+    </node>
+    <node id="Standardized Operating Procedures">
+      <data key="d0">ScientificConcept</data>
+    </node>
+    <node id="assembly line paradigm">
+      <data key="d0">ScientificConcept</data>
+    </node>
+    <node id="collaborative software engineering benchmarks">
+      <data key="d0">Benchmark</data>
+    </node>
+    <edge source="MetaGPT" target="Standardized Operating Procedures">
+      <data key="d1">incorporates</data>
+    </edge>
+    <edge source="MetaGPT" target="LLM-based multi-agent systems">
+      <data key="d1">uses</data>
+    </edge>
+    <edge source="MetaGPT" target="assembly line paradigm">
+      <data key="d1">implements</data>
+    </edge>
+    <edge source="MetaGPT" target="collaborative software engineering benchmarks">
+      <data key="d1">evaluates</data>
+    </edge>
+  </graph>
+</graphml>

@@ -1,0 +1,49 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "entity_type": "Framework",
+      "id": "MetaGPT"
+    },
+    {
+      "entity_type": "ScientificConcept",
+      "id": "LLM-based multi-agent systems"
+    },
+    {
+      "entity_type": "ScientificConcept",
+      "id": "Standardized Operating Procedures"
+    },
+    {
+      "entity_type": "ScientificConcept",
+      "id": "assembly line paradigm"
+    },
+    {
+      "entity_type": "Benchmark",
+      "id": "collaborative software engineering benchmarks"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "incorporates",
+      "source": "MetaGPT",
+      "target": "Standardized Operating Procedures"
+    },
+    {
+      "relation": "uses",
+      "source": "MetaGPT",
+      "target": "LLM-based multi-agent systems"
+    },
+    {
+      "relation": "implements",
+      "source": "MetaGPT",
+      "target": "assembly line paradigm"
+    },
+    {
+      "relation": "evaluates",
+      "source": "MetaGPT",
+      "target": "collaborative software engineering benchmarks"
+    }
+  ]
+}
