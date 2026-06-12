@@ -1,0 +1,7 @@
+,AutoKaggle,AIDE,DataInterpreter,AIScientist,SWEAgent,OpenHands
+AutoKaggle,0.0,2.0,1.0,1.0,1.0,3.0
+AIDE,2.0,0.0,0.0,2.0,3.0,5.0
+DataInterpreter,1.0,0.0,0.0,1.0,2.0,3.0
+AIScientist,1.0,2.0,1.0,0.0,3.0,3.0
+SWEAgent,1.0,3.0,2.0,3.0,0.0,6.0
+OpenHands,3.0,5.0,3.0,3.0,6.0,0.0
