@@ -1,0 +1,80 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "entity_type": "Framework",
+      "id": "OpenHands"
+    },
+    {
+      "entity_type": "Paper",
+      "id": "OpenDevin"
+    },
+    {
+      "entity_type": "ScientificConcept",
+      "id": "AI agents"
+    },
+    {
+      "entity_type": "ScientificConcept",
+      "id": "LLMs"
+    },
+    {
+      "entity_type": "Benchmark",
+      "id": "SWE-BENCH"
+    },
+    {
+      "entity_type": "Benchmark",
+      "id": "WEBARENA"
+    },
+    {
+      "entity_type": "ScientificConcept",
+      "id": "Multi-Agent System"
+    },
+    {
+      "entity_type": "ScientificConcept",
+      "id": "Code Execution"
+    },
+    {
+      "entity_type": "ScientificConcept",
+      "id": "Sandboxed Environments"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "extends",
+      "source": "OpenHands",
+      "target": "OpenDevin"
+    },
+    {
+      "relation": "implements",
+      "source": "OpenHands",
+      "target": "AI agents"
+    },
+    {
+      "relation": "uses",
+      "source": "OpenHands",
+      "target": "LLMs"
+    },
+    {
+      "relation": "evaluates",
+      "source": "OpenHands",
+      "target": "SWE-BENCH"
+    },
+    {
+      "relation": "evaluates",
+      "source": "OpenHands",
+      "target": "WEBARENA"
+    },
+    {
+      "relation": "implements",
+      "source": "OpenHands",
+      "target": "Multi-Agent System"
+    },
+    {
+      "relation": "implements",
+      "source": "OpenHands",
+      "target": "Sandboxed Environments"
+    }
+  ]
+}
