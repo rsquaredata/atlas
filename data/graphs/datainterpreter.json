@@ -12,11 +12,11 @@
       "id": "LLM-based agent"
     },
     {
-      "entity_type": "Method",
+      "entity_type": "ScientificConcept",
       "id": "Hierarchical Graph Modeling"
     },
     {
-      "entity_type": "Method",
+      "entity_type": "ScientificConcept",
       "id": "Programmable Node Generation"
     },
     {
@@ -30,12 +30,17 @@
   ],
   "edges": [
     {
-      "relation": "incorporates",
+      "relation": "uses",
+      "source": "Data Interpreter",
+      "target": "LLM-based agent"
+    },
+    {
+      "relation": "implements",
       "source": "Data Interpreter",
       "target": "Hierarchical Graph Modeling"
     },
     {
-      "relation": "incorporates",
+      "relation": "implements",
       "source": "Data Interpreter",
       "target": "Programmable Node Generation"
     },

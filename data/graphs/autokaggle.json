@@ -8,17 +8,40 @@
       "id": "AutoKaggle"
     },
     {
-      "entity_type": "Benchmark",
-      "id": "Kaggle"
-    },
-    {
+      "entity_type": "ScientificConcept",
       "id": "Multi-Agent System"
     },
     {
+      "entity_type": "ScientificConcept",
+      "id": "Data Cleaning"
+    },
+    {
+      "entity_type": "ScientificConcept",
       "id": "Feature Engineering"
     },
     {
-      "id": "Data Cleaning"
+      "entity_type": "ScientificConcept",
+      "id": "Modeling"
+    },
+    {
+      "entity_type": "Benchmark",
+      "id": "Kaggle Competitions"
+    },
+    {
+      "entity_type": "ScientificConcept",
+      "id": "Code Execution"
+    },
+    {
+      "entity_type": "ScientificConcept",
+      "id": "Debugging"
+    },
+    {
+      "entity_type": "ScientificConcept",
+      "id": "Unit Testing"
+    },
+    {
+      "entity_type": "ScientificConcept",
+      "id": "Human-in-the-loop"
     }
   ],
   "edges": [
@@ -30,17 +53,42 @@
     {
       "relation": "uses",
       "source": "AutoKaggle",
+      "target": "Data Cleaning"
+    },
+    {
+      "relation": "uses",
+      "source": "AutoKaggle",
       "target": "Feature Engineering"
     },
     {
       "relation": "uses",
       "source": "AutoKaggle",
-      "target": "Data Cleaning"
+      "target": "Modeling"
     },
     {
       "relation": "evaluates",
       "source": "AutoKaggle",
-      "target": "Kaggle"
+      "target": "Kaggle Competitions"
+    },
+    {
+      "relation": "integrates",
+      "source": "AutoKaggle",
+      "target": "Human-in-the-loop"
+    },
+    {
+      "relation": "implements",
+      "source": "AutoKaggle",
+      "target": "Code Execution"
+    },
+    {
+      "relation": "implements",
+      "source": "AutoKaggle",
+      "target": "Debugging"
+    },
+    {
+      "relation": "implements",
+      "source": "AutoKaggle",
+      "target": "Unit Testing"
     }
   ]
 }

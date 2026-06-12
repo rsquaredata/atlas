@@ -9,11 +9,23 @@
     },
     {
       "entity_type": "ScientificConcept",
-      "id": "Large Language Models"
+      "id": "AI-Driven Exploration"
     },
     {
-      "entity_type": "ResearchTask",
-      "id": "Machine Learning Engineering"
+      "entity_type": "Agent",
+      "id": "machine learning engineering agent"
+    },
+    {
+      "entity_type": "Model",
+      "id": "large language models"
+    },
+    {
+      "entity_type": "ScientificConcept",
+      "id": "code optimization"
+    },
+    {
+      "entity_type": "ScientificConcept",
+      "id": "tree search"
     },
     {
       "entity_type": "Benchmark",
@@ -30,27 +42,37 @@
   ],
   "edges": [
     {
+      "relation": "implements",
+      "source": "AIDE",
+      "target": "AI-Driven Exploration"
+    },
+    {
       "relation": "uses",
       "source": "AIDE",
-      "target": "Large Language Models"
+      "target": "large language models"
     },
     {
-      "relation": "frames",
+      "relation": "formulates",
       "source": "AIDE",
-      "target": "Machine Learning Engineering"
+      "target": "code optimization"
     },
     {
-      "relation": "evaluates",
+      "relation": "formulates",
+      "source": "AIDE",
+      "target": "tree search"
+    },
+    {
+      "relation": "benchmarks",
       "source": "AIDE",
       "target": "Kaggle evaluations"
     },
     {
-      "relation": "evaluates",
+      "relation": "benchmarks",
       "source": "AIDE",
       "target": "OpenAI MLE-Bench"
     },
     {
-      "relation": "evaluates",
+      "relation": "benchmarks",
       "source": "AIDE",
       "target": "METRs RE-Bench"
     }

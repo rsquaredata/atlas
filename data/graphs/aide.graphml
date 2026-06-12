@@ -6,11 +6,20 @@
     <node id="AIDE">
       <data key="d0">Agent</data>
     </node>
-    <node id="Large Language Models">
+    <node id="AI-Driven Exploration">
       <data key="d0">ScientificConcept</data>
     </node>
-    <node id="Machine Learning Engineering">
-      <data key="d0">ResearchTask</data>
+    <node id="machine learning engineering agent">
+      <data key="d0">Agent</data>
+    </node>
+    <node id="large language models">
+      <data key="d0">Model</data>
+    </node>
+    <node id="code optimization">
+      <data key="d0">ScientificConcept</data>
+    </node>
+    <node id="tree search">
+      <data key="d0">ScientificConcept</data>
     </node>
     <node id="Kaggle evaluations">
       <data key="d0">Benchmark</data>
@@ -21,20 +30,26 @@
     <node id="METRs RE-Bench">
       <data key="d0">Benchmark</data>
     </node>
-    <edge source="AIDE" target="Large Language Models">
+    <edge source="AIDE" target="AI-Driven Exploration">
+      <data key="d1">implements</data>
+    </edge>
+    <edge source="AIDE" target="large language models">
       <data key="d1">uses</data>
     </edge>
-    <edge source="AIDE" target="Machine Learning Engineering">
-      <data key="d1">frames</data>
+    <edge source="AIDE" target="code optimization">
+      <data key="d1">formulates</data>
+    </edge>
+    <edge source="AIDE" target="tree search">
+      <data key="d1">formulates</data>
     </edge>
     <edge source="AIDE" target="Kaggle evaluations">
-      <data key="d1">evaluates</data>
+      <data key="d1">benchmarks</data>
     </edge>
     <edge source="AIDE" target="OpenAI MLE-Bench">
-      <data key="d1">evaluates</data>
+      <data key="d1">benchmarks</data>
     </edge>
     <edge source="AIDE" target="METRs RE-Bench">
-      <data key="d1">evaluates</data>
+      <data key="d1">benchmarks</data>
     </edge>
   </graph>
 </graphml>

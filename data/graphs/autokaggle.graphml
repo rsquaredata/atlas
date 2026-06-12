@@ -6,23 +6,59 @@
     <node id="AutoKaggle">
       <data key="d0">Framework</data>
     </node>
-    <node id="Kaggle">
+    <node id="Multi-Agent System">
+      <data key="d0">ScientificConcept</data>
+    </node>
+    <node id="Data Cleaning">
+      <data key="d0">ScientificConcept</data>
+    </node>
+    <node id="Feature Engineering">
+      <data key="d0">ScientificConcept</data>
+    </node>
+    <node id="Modeling">
+      <data key="d0">ScientificConcept</data>
+    </node>
+    <node id="Kaggle Competitions">
       <data key="d0">Benchmark</data>
     </node>
-    <node id="Multi-Agent System" />
-    <node id="Feature Engineering" />
-    <node id="Data Cleaning" />
+    <node id="Code Execution">
+      <data key="d0">ScientificConcept</data>
+    </node>
+    <node id="Debugging">
+      <data key="d0">ScientificConcept</data>
+    </node>
+    <node id="Unit Testing">
+      <data key="d0">ScientificConcept</data>
+    </node>
+    <node id="Human-in-the-loop">
+      <data key="d0">ScientificConcept</data>
+    </node>
     <edge source="AutoKaggle" target="Multi-Agent System">
       <data key="d1">implements</data>
-    </edge>
-    <edge source="AutoKaggle" target="Feature Engineering">
-      <data key="d1">uses</data>
     </edge>
     <edge source="AutoKaggle" target="Data Cleaning">
       <data key="d1">uses</data>
     </edge>
-    <edge source="AutoKaggle" target="Kaggle">
+    <edge source="AutoKaggle" target="Feature Engineering">
+      <data key="d1">uses</data>
+    </edge>
+    <edge source="AutoKaggle" target="Modeling">
+      <data key="d1">uses</data>
+    </edge>
+    <edge source="AutoKaggle" target="Kaggle Competitions">
       <data key="d1">evaluates</data>
+    </edge>
+    <edge source="AutoKaggle" target="Human-in-the-loop">
+      <data key="d1">integrates</data>
+    </edge>
+    <edge source="AutoKaggle" target="Code Execution">
+      <data key="d1">implements</data>
+    </edge>
+    <edge source="AutoKaggle" target="Debugging">
+      <data key="d1">implements</data>
+    </edge>
+    <edge source="AutoKaggle" target="Unit Testing">
+      <data key="d1">implements</data>
     </edge>
   </graph>
 </graphml>

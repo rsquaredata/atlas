@@ -10,10 +10,10 @@
       <data key="d0">Agent</data>
     </node>
     <node id="Hierarchical Graph Modeling">
-      <data key="d0">Method</data>
+      <data key="d0">ScientificConcept</data>
     </node>
     <node id="Programmable Node Generation">
-      <data key="d0">Method</data>
+      <data key="d0">ScientificConcept</data>
     </node>
     <node id="InfiAgent-DABench">
       <data key="d0">Benchmark</data>
@@ -21,11 +21,14 @@
     <node id="MATH dataset">
       <data key="d0">Dataset</data>
     </node>
+    <edge source="Data Interpreter" target="LLM-based agent">
+      <data key="d1">uses</data>
+    </edge>
     <edge source="Data Interpreter" target="Hierarchical Graph Modeling">
-      <data key="d1">incorporates</data>
+      <data key="d1">implements</data>
     </edge>
     <edge source="Data Interpreter" target="Programmable Node Generation">
-      <data key="d1">incorporates</data>
+      <data key="d1">implements</data>
     </edge>
     <edge source="Data Interpreter" target="InfiAgent-DABench">
       <data key="d1">evaluates</data>
