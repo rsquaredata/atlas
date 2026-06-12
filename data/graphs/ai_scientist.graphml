@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="edge" attr.name="relation" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="The AI Scientist">
+      <data key="d0">Framework</data>
+    </node>
+    <node id="frontier large language models">
+      <data key="d0">Model</data>
+    </node>
+    <node id="automated reviewer">
+      <data key="d0">Agent</data>
+    </node>
+    <node id="diffusion modeling">
+      <data key="d0">ResearchTask</data>
+    </node>
+    <node id="transformer-based language modeling">
+      <data key="d0">ResearchTask</data>
+    </node>
+    <node id="learning dynamics">
+      <data key="d0">ResearchTask</data>
+    </node>
+    <node id="open-ended scientific discovery">
+      <data key="d0">ScientificConcept</data>
+    </node>
+    <node id="simulated review process">
+      <data key="d0">ScientificConcept</data>
+    </node>
+    <node id="experiment tracking">
+      <data key="d0">ScientificConcept</data>
+    </node>
+    <node id="workflow orchestration">
+      <data key="d0">ScientificConcept</data>
+    </node>
+    <node id="agent workflow">
+      <data key="d0">ScientificConcept</data>
+    </node>
+    <edge source="The AI Scientist" target="frontier large language models">
+      <data key="d1">uses</data>
+    </edge>
+    <edge source="The AI Scientist" target="open-ended scientific discovery">
+      <data key="d1">automates</data>
+    </edge>
+    <edge source="The AI Scientist" target="experiment tracking">
+      <data key="d1">implements</data>
+    </edge>
+    <edge source="The AI Scientist" target="workflow orchestration">
+      <data key="d1">orchestrates</data>
+    </edge>
+    <edge source="The AI Scientist" target="agent workflow">
+      <data key="d1">integrates</data>
+    </edge>
+    <edge source="The AI Scientist" target="automated reviewer">
+      <data key="d1">evaluates</data>
+    </edge>
+    <edge source="automated reviewer" target="The AI Scientist">
+      <data key="d1">benchmarks</data>
+    </edge>
+  </graph>
+</graphml>

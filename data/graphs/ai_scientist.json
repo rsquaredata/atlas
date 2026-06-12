@@ -1,0 +1,88 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "entity_type": "Framework",
+      "id": "The AI Scientist"
+    },
+    {
+      "entity_type": "Model",
+      "id": "frontier large language models"
+    },
+    {
+      "entity_type": "Agent",
+      "id": "automated reviewer"
+    },
+    {
+      "entity_type": "ResearchTask",
+      "id": "diffusion modeling"
+    },
+    {
+      "entity_type": "ResearchTask",
+      "id": "transformer-based language modeling"
+    },
+    {
+      "entity_type": "ResearchTask",
+      "id": "learning dynamics"
+    },
+    {
+      "entity_type": "ScientificConcept",
+      "id": "open-ended scientific discovery"
+    },
+    {
+      "entity_type": "ScientificConcept",
+      "id": "simulated review process"
+    },
+    {
+      "entity_type": "ScientificConcept",
+      "id": "experiment tracking"
+    },
+    {
+      "entity_type": "ScientificConcept",
+      "id": "workflow orchestration"
+    },
+    {
+      "entity_type": "ScientificConcept",
+      "id": "agent workflow"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "uses",
+      "source": "The AI Scientist",
+      "target": "frontier large language models"
+    },
+    {
+      "relation": "automates",
+      "source": "The AI Scientist",
+      "target": "open-ended scientific discovery"
+    },
+    {
+      "relation": "implements",
+      "source": "The AI Scientist",
+      "target": "experiment tracking"
+    },
+    {
+      "relation": "orchestrates",
+      "source": "The AI Scientist",
+      "target": "workflow orchestration"
+    },
+    {
+      "relation": "integrates",
+      "source": "The AI Scientist",
+      "target": "agent workflow"
+    },
+    {
+      "relation": "evaluates",
+      "source": "The AI Scientist",
+      "target": "automated reviewer"
+    },
+    {
+      "relation": "benchmarks",
+      "source": "automated reviewer",
+      "target": "The AI Scientist"
+    }
+  ]
+}
