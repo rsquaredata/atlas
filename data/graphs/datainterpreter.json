@@ -1,0 +1,53 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "entity_type": "Agent",
+      "id": "Data Interpreter"
+    },
+    {
+      "entity_type": "Agent",
+      "id": "LLM-based agent"
+    },
+    {
+      "entity_type": "Method",
+      "id": "Hierarchical Graph Modeling"
+    },
+    {
+      "entity_type": "Method",
+      "id": "Programmable Node Generation"
+    },
+    {
+      "entity_type": "Benchmark",
+      "id": "InfiAgent-DABench"
+    },
+    {
+      "entity_type": "Dataset",
+      "id": "MATH dataset"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "incorporates",
+      "source": "Data Interpreter",
+      "target": "Hierarchical Graph Modeling"
+    },
+    {
+      "relation": "incorporates",
+      "source": "Data Interpreter",
+      "target": "Programmable Node Generation"
+    },
+    {
+      "relation": "evaluates",
+      "source": "Data Interpreter",
+      "target": "InfiAgent-DABench"
+    },
+    {
+      "relation": "evaluates",
+      "source": "Data Interpreter",
+      "target": "MATH dataset"
+    }
+  ]
+}

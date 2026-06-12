@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="edge" attr.name="relation" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="Data Interpreter">
+      <data key="d0">Agent</data>
+    </node>
+    <node id="LLM-based agent">
+      <data key="d0">Agent</data>
+    </node>
+    <node id="Hierarchical Graph Modeling">
+      <data key="d0">Method</data>
+    </node>
+    <node id="Programmable Node Generation">
+      <data key="d0">Method</data>
+    </node>
+    <node id="InfiAgent-DABench">
+      <data key="d0">Benchmark</data>
+    </node>
+    <node id="MATH dataset">
+      <data key="d0">Dataset</data>
+    </node>
+    <edge source="Data Interpreter" target="Hierarchical Graph Modeling">
+      <data key="d1">incorporates</data>
+    </edge>
+    <edge source="Data Interpreter" target="Programmable Node Generation">
+      <data key="d1">incorporates</data>
+    </edge>
+    <edge source="Data Interpreter" target="InfiAgent-DABench">
+      <data key="d1">evaluates</data>
+    </edge>
+    <edge source="Data Interpreter" target="MATH dataset">
+      <data key="d1">evaluates</data>
+    </edge>
+  </graph>
+</graphml>
