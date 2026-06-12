@@ -5,13 +5,13 @@ ABBREVIATIONS = {
 }
 
 
-def normalize_concept(
-    concept: str
-) -> str:
+def normalize_concept(concept: str) -> str:
 
     concept = concept.strip()
 
-    return ABBREVIATIONS.get(
+    concept = ABBREVIATIONS.get(
         concept,
         concept
     )
+
+    return concept.strip().lower()
