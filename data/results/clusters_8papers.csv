@@ -1,0 +1,31 @@
+cluster_id,size,concept
+1,13,"['agent workflow', 'agent-computer interface', 'ai agents', 'ai-driven exploration', 'frontier large language models', 'language model agent', 'large language models', 'llm-based agent', 'llm-based multi-agent systems', 'machine learning engineering agent', 'multi-agent system', 'transformer-based language modeling', 'workflow orchestration']"
+2,1,['assembly line paradigm']
+3,1,['automated reviewer']
+4,2,"['code execution', 'code optimization']"
+5,1,['collaborative software engineering benchmarks']
+6,1,['data cleaning']
+7,1,['debugging']
+8,1,['diffusion modeling']
+9,1,['experiment tracking']
+10,1,['feature engineering']
+11,1,['hierarchical graph modeling']
+12,1,['human-in-the-loop']
+13,1,['humanevalfix']
+14,1,['infiagent-dabench']
+15,1,['integrated development environment']
+16,2,"['kaggle competitions', 'kaggle evaluations']"
+17,1,['learning dynamics']
+18,1,['math dataset']
+19,3,"['metrs re-bench', 'openai mle-bench', 'swe-bench']"
+20,1,['modeling']
+21,1,['open-ended scientific discovery']
+22,1,['opendevin']
+23,1,['pass@1']
+24,1,['programmable node generation']
+25,1,['sandboxed environments']
+26,1,['simulated review process']
+27,1,['standardized operating procedures']
+28,1,['tree search']
+29,1,['unit testing']
+30,1,['webarena']
