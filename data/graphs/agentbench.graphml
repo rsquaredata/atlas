@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="edge" attr.name="relation" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="AgentBench">
+      <data key="d0">Benchmark</data>
+    </node>
+    <node id="LLM-as-Agent">
+      <data key="d0">ResearchTask</data>
+    </node>
+    <node id="Large Language Model">
+      <data key="d0">ScientificConcept</data>
+    </node>
+    <node id="API-based LLMs">
+      <data key="d0">Model</data>
+    </node>
+    <node id="Open-sourced LLMs">
+      <data key="d0">Model</data>
+    </node>
+    <node id="Reasoning">
+      <data key="d0">ScientificConcept</data>
+    </node>
+    <node id="Decision-Making">
+      <data key="d0">ScientificConcept</data>
+    </node>
+    <node id="Instruction Following">
+      <data key="d0">ScientificConcept</data>
+    </node>
+    <node id="Multi-round Alignment Data">
+      <data key="d0">ScientificConcept</data>
+    </node>
+    <node id="Code Training">
+      <data key="d0">ScientificConcept</data>
+    </node>
+    <edge source="AgentBench" target="LLM-as-Agent">
+      <data key="d1">evaluates</data>
+    </edge>
+    <edge source="AgentBench" target="API-based LLMs">
+      <data key="d1">uses</data>
+    </edge>
+    <edge source="AgentBench" target="Open-sourced LLMs">
+      <data key="d1">uses</data>
+    </edge>
+    <edge source="AgentBench" target="Reasoning">
+      <data key="d1">assesses</data>
+    </edge>
+    <edge source="AgentBench" target="Decision-Making">
+      <data key="d1">assesses</data>
+    </edge>
+    <edge source="AgentBench" target="Instruction Following">
+      <data key="d1">identifies</data>
+    </edge>
+    <edge source="AgentBench" target="Multi-round Alignment Data">
+      <data key="d1">identifies</data>
+    </edge>
+    <edge source="AgentBench" target="Code Training">
+      <data key="d1">identifies</data>
+    </edge>
+  </graph>
+</graphml>
