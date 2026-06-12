@@ -169,12 +169,12 @@ ATLAS/
 
 ATLAS is currently under active development.
 
-The first milestone focuses on:
+Current capabilities
 
-- Entity extraction
-- Relationship extraction
-- Initial graph construction
-- Human validation workflow
+✓ LLM-based entity extraction
+✓ Relationship extraction
+✓ Ontology-constrained filtering
+✓ Knowledge graph construction
 
 ---
 
@@ -182,12 +182,11 @@ The first milestone focuses on:
 
 Future work may include:
 
-- Multi-document graph fusion
-- Scientific claim extraction
-- Graph-based retrieval
-- Retrieval-Augmented Generation (RAG)
-- Agent evaluation frameworks
-- Integration with graph databases
+□ Relation normalization
+□ Entity linking
+□ Graph validation
+□ Multi-document graph merging
+□ Agent-based extraction workflow
 
 ---
 
