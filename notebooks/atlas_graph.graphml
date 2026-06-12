@@ -3,35 +3,60 @@
   <key id="d1" for="edge" attr.name="relation" attr.type="string" />
   <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
   <graph edgedefault="directed">
-    <node id="Microsoft">
-      <data key="d0">Organization</data>
-    </node>
-    <node id="OpenAI">
-      <data key="d0">Organization</data>
-    </node>
-    <node id="GPT-4">
-      <data key="d0">Product</data>
-    </node>
     <node id="AutoKaggle">
-      <data key="d0">Product</data>
+      <data key="d0">Framework</data>
     </node>
-    <node id="Multi-Agent System">
-      <data key="d0">Technology</data>
-    </node>
-    <node id="MLE-Bench">
+    <node id="Kaggle competitions">
       <data key="d0">Benchmark</data>
     </node>
-    <edge source="Microsoft" target="OpenAI">
-      <data key="d1">invested in</data>
+    <node id="multi-agent system">
+      <data key="d0">ScientificConcept</data>
+    </node>
+    <node id="code execution">
+      <data key="d0">ScientificConcept</data>
+    </node>
+    <node id="debugging">
+      <data key="d0">ScientificConcept</data>
+    </node>
+    <node id="unit testing">
+      <data key="d0">ScientificConcept</data>
+    </node>
+    <node id="data cleaning">
+      <data key="d0">ScientificConcept</data>
+    </node>
+    <node id="feature engineering">
+      <data key="d0">ScientificConcept</data>
+    </node>
+    <node id="modeling">
+      <data key="d0">ScientificConcept</data>
+    </node>
+    <node id="iterative development process" />
+    <edge source="AutoKaggle" target="iterative development process">
+      <data key="d1">implements</data>
     </edge>
-    <edge source="OpenAI" target="GPT-4">
-      <data key="d1">developed</data>
+    <edge source="AutoKaggle" target="code execution">
+      <data key="d1">combines</data>
     </edge>
-    <edge source="AutoKaggle" target="Multi-Agent System">
+    <edge source="AutoKaggle" target="debugging">
+      <data key="d1">combines</data>
+    </edge>
+    <edge source="AutoKaggle" target="unit testing">
+      <data key="d1">combines</data>
+    </edge>
+    <edge source="AutoKaggle" target="multi-agent system">
+      <data key="d1">integrates</data>
+    </edge>
+    <edge source="AutoKaggle" target="data cleaning">
       <data key="d1">uses</data>
     </edge>
-    <edge source="AutoKaggle" target="MLE-Bench">
-      <data key="d1">was evaluated on</data>
+    <edge source="AutoKaggle" target="feature engineering">
+      <data key="d1">uses</data>
+    </edge>
+    <edge source="AutoKaggle" target="modeling">
+      <data key="d1">uses</data>
+    </edge>
+    <edge source="AutoKaggle" target="Kaggle competitions">
+      <data key="d1">evaluates</data>
     </edge>
   </graph>
 </graphml>

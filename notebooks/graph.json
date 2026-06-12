@@ -4,50 +4,90 @@
   "graph": {},
   "nodes": [
     {
-      "entity_type": "Organization",
-      "id": "Microsoft"
-    },
-    {
-      "entity_type": "Organization",
-      "id": "OpenAI"
-    },
-    {
-      "entity_type": "Product",
-      "id": "GPT-4"
-    },
-    {
-      "entity_type": "Product",
+      "entity_type": "Framework",
       "id": "AutoKaggle"
     },
     {
-      "entity_type": "Technology",
-      "id": "Multi-Agent System"
+      "entity_type": "Benchmark",
+      "id": "Kaggle competitions"
     },
     {
-      "entity_type": "Benchmark",
-      "id": "MLE-Bench"
+      "entity_type": "ScientificConcept",
+      "id": "multi-agent system"
+    },
+    {
+      "entity_type": "ScientificConcept",
+      "id": "code execution"
+    },
+    {
+      "entity_type": "ScientificConcept",
+      "id": "debugging"
+    },
+    {
+      "entity_type": "ScientificConcept",
+      "id": "unit testing"
+    },
+    {
+      "entity_type": "ScientificConcept",
+      "id": "data cleaning"
+    },
+    {
+      "entity_type": "ScientificConcept",
+      "id": "feature engineering"
+    },
+    {
+      "entity_type": "ScientificConcept",
+      "id": "modeling"
+    },
+    {
+      "id": "iterative development process"
     }
   ],
   "edges": [
     {
-      "relation": "invested in",
-      "source": "Microsoft",
-      "target": "OpenAI"
+      "relation": "implements",
+      "source": "AutoKaggle",
+      "target": "iterative development process"
     },
     {
-      "relation": "developed",
-      "source": "OpenAI",
-      "target": "GPT-4"
+      "relation": "combines",
+      "source": "AutoKaggle",
+      "target": "code execution"
+    },
+    {
+      "relation": "combines",
+      "source": "AutoKaggle",
+      "target": "debugging"
+    },
+    {
+      "relation": "combines",
+      "source": "AutoKaggle",
+      "target": "unit testing"
+    },
+    {
+      "relation": "integrates",
+      "source": "AutoKaggle",
+      "target": "multi-agent system"
     },
     {
       "relation": "uses",
       "source": "AutoKaggle",
-      "target": "Multi-Agent System"
+      "target": "data cleaning"
     },
     {
-      "relation": "was evaluated on",
+      "relation": "uses",
       "source": "AutoKaggle",
-      "target": "MLE-Bench"
+      "target": "feature engineering"
+    },
+    {
+      "relation": "uses",
+      "source": "AutoKaggle",
+      "target": "modeling"
+    },
+    {
+      "relation": "evaluates",
+      "source": "AutoKaggle",
+      "target": "Kaggle competitions"
     }
   ]
 }
