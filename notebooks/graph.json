@@ -13,89 +13,55 @@
     },
     {
       "entity_type": "ScientificConcept",
-      "id": "multi-agent system"
+      "id": "Multi-Agent System"
     },
     {
       "entity_type": "ScientificConcept",
-      "id": "code execution"
+      "id": "Data Cleaning"
     },
     {
       "entity_type": "ScientificConcept",
-      "id": "debugging"
+      "id": "Feature Engineering"
     },
     {
       "entity_type": "ScientificConcept",
-      "id": "unit testing"
+      "id": "Modeling"
     },
     {
       "entity_type": "ScientificConcept",
-      "id": "data cleaning"
-    },
-    {
-      "entity_type": "ScientificConcept",
-      "id": "feature engineering"
-    },
-    {
-      "entity_type": "ScientificConcept",
-      "id": "modeling"
-    },
-    {
-      "id": "iterative development process"
-    },
-    {
-      "id": "human expertise"
+      "id": "Unit Testing"
     }
   ],
   "edges": [
     {
       "relation": "implements",
       "source": "AutoKaggle",
-      "target": "multi-agent system"
-    },
-    {
-      "relation": "implements",
-      "source": "AutoKaggle",
-      "target": "iterative development process"
+      "target": "Multi-Agent System"
     },
     {
       "relation": "integrates",
       "source": "AutoKaggle",
-      "target": "human expertise"
+      "target": "Data Cleaning"
     },
     {
-      "relation": "uses",
+      "relation": "integrates",
       "source": "AutoKaggle",
-      "target": "data cleaning"
+      "target": "Feature Engineering"
     },
     {
-      "relation": "uses",
+      "relation": "integrates",
       "source": "AutoKaggle",
-      "target": "feature engineering"
+      "target": "Modeling"
     },
     {
-      "relation": "uses",
+      "relation": "implements",
       "source": "AutoKaggle",
-      "target": "modeling"
+      "target": "Unit Testing"
     },
     {
       "relation": "evaluates",
       "source": "AutoKaggle",
       "target": "Kaggle"
-    },
-    {
-      "relation": "combines",
-      "source": "iterative development process",
-      "target": "code execution"
-    },
-    {
-      "relation": "combines",
-      "source": "iterative development process",
-      "target": "debugging"
-    },
-    {
-      "relation": "combines",
-      "source": "iterative development process",
-      "target": "unit testing"
     }
   ]
 }

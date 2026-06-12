@@ -9,58 +9,38 @@
     <node id="Kaggle">
       <data key="d0">Benchmark</data>
     </node>
-    <node id="multi-agent system">
+    <node id="Multi-Agent System">
       <data key="d0">ScientificConcept</data>
     </node>
-    <node id="code execution">
+    <node id="Data Cleaning">
       <data key="d0">ScientificConcept</data>
     </node>
-    <node id="debugging">
+    <node id="Feature Engineering">
       <data key="d0">ScientificConcept</data>
     </node>
-    <node id="unit testing">
+    <node id="Modeling">
       <data key="d0">ScientificConcept</data>
     </node>
-    <node id="data cleaning">
+    <node id="Unit Testing">
       <data key="d0">ScientificConcept</data>
     </node>
-    <node id="feature engineering">
-      <data key="d0">ScientificConcept</data>
-    </node>
-    <node id="modeling">
-      <data key="d0">ScientificConcept</data>
-    </node>
-    <node id="iterative development process" />
-    <node id="human expertise" />
-    <edge source="AutoKaggle" target="multi-agent system">
+    <edge source="AutoKaggle" target="Multi-Agent System">
       <data key="d1">implements</data>
     </edge>
-    <edge source="AutoKaggle" target="iterative development process">
-      <data key="d1">implements</data>
-    </edge>
-    <edge source="AutoKaggle" target="human expertise">
+    <edge source="AutoKaggle" target="Data Cleaning">
       <data key="d1">integrates</data>
     </edge>
-    <edge source="AutoKaggle" target="data cleaning">
-      <data key="d1">uses</data>
+    <edge source="AutoKaggle" target="Feature Engineering">
+      <data key="d1">integrates</data>
     </edge>
-    <edge source="AutoKaggle" target="feature engineering">
-      <data key="d1">uses</data>
+    <edge source="AutoKaggle" target="Modeling">
+      <data key="d1">integrates</data>
     </edge>
-    <edge source="AutoKaggle" target="modeling">
-      <data key="d1">uses</data>
+    <edge source="AutoKaggle" target="Unit Testing">
+      <data key="d1">implements</data>
     </edge>
     <edge source="AutoKaggle" target="Kaggle">
       <data key="d1">evaluates</data>
-    </edge>
-    <edge source="iterative development process" target="code execution">
-      <data key="d1">combines</data>
-    </edge>
-    <edge source="iterative development process" target="debugging">
-      <data key="d1">combines</data>
-    </edge>
-    <edge source="iterative development process" target="unit testing">
-      <data key="d1">combines</data>
     </edge>
   </graph>
 </graphml>
