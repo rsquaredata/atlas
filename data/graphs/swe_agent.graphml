@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="edge" attr.name="relation" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="SWE-agent">
+      <data key="d0">Framework</data>
+    </node>
+    <node id="Agent-Computer Interface">
+      <data key="d0">ScientificConcept</data>
+    </node>
+    <node id="SWE-bench">
+      <data key="d0">Benchmark</data>
+    </node>
+    <node id="HumanEvalFix">
+      <data key="d0">Benchmark</data>
+    </node>
+    <node id="Language Model Agent">
+      <data key="d0">Agent</data>
+    </node>
+    <node id="Integrated Development Environment">
+      <data key="d0">ScientificConcept</data>
+    </node>
+    <node id="pass@1">
+      <data key="d0">Metric</data>
+    </node>
+    <edge source="SWE-agent" target="Agent-Computer Interface">
+      <data key="d1">uses</data>
+    </edge>
+    <edge source="SWE-agent" target="SWE-bench">
+      <data key="d1">evaluates</data>
+    </edge>
+    <edge source="SWE-agent" target="HumanEvalFix">
+      <data key="d1">evaluates</data>
+    </edge>
+    <edge source="Agent-Computer Interface" target="Language Model Agent">
+      <data key="d1">enhances</data>
+    </edge>
+    <edge source="Language Model Agent" target="Agent-Computer Interface">
+      <data key="d1">uses</data>
+    </edge>
+  </graph>
+</graphml>

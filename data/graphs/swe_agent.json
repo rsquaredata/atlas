@@ -1,0 +1,62 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "entity_type": "Framework",
+      "id": "SWE-agent"
+    },
+    {
+      "entity_type": "ScientificConcept",
+      "id": "Agent-Computer Interface"
+    },
+    {
+      "entity_type": "Benchmark",
+      "id": "SWE-bench"
+    },
+    {
+      "entity_type": "Benchmark",
+      "id": "HumanEvalFix"
+    },
+    {
+      "entity_type": "Agent",
+      "id": "Language Model Agent"
+    },
+    {
+      "entity_type": "ScientificConcept",
+      "id": "Integrated Development Environment"
+    },
+    {
+      "entity_type": "Metric",
+      "id": "pass@1"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "uses",
+      "source": "SWE-agent",
+      "target": "Agent-Computer Interface"
+    },
+    {
+      "relation": "evaluates",
+      "source": "SWE-agent",
+      "target": "SWE-bench"
+    },
+    {
+      "relation": "evaluates",
+      "source": "SWE-agent",
+      "target": "HumanEvalFix"
+    },
+    {
+      "relation": "enhances",
+      "source": "Agent-Computer Interface",
+      "target": "Language Model Agent"
+    },
+    {
+      "relation": "uses",
+      "source": "Language Model Agent",
+      "target": "Agent-Computer Interface"
+    }
+  ]
+}
