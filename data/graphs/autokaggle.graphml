@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="edge" attr.name="relation" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="AutoKaggle">
+      <data key="d0">Framework</data>
+    </node>
+    <node id="Kaggle">
+      <data key="d0">Benchmark</data>
+    </node>
+    <node id="Multi-Agent System" />
+    <node id="Feature Engineering" />
+    <node id="Data Cleaning" />
+    <edge source="AutoKaggle" target="Multi-Agent System">
+      <data key="d1">implements</data>
+    </edge>
+    <edge source="AutoKaggle" target="Feature Engineering">
+      <data key="d1">uses</data>
+    </edge>
+    <edge source="AutoKaggle" target="Data Cleaning">
+      <data key="d1">uses</data>
+    </edge>
+    <edge source="AutoKaggle" target="Kaggle">
+      <data key="d1">evaluates</data>
+    </edge>
+  </graph>
+</graphml>

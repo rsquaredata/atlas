@@ -1,0 +1,46 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "entity_type": "Framework",
+      "id": "AutoKaggle"
+    },
+    {
+      "entity_type": "Benchmark",
+      "id": "Kaggle"
+    },
+    {
+      "id": "Multi-Agent System"
+    },
+    {
+      "id": "Feature Engineering"
+    },
+    {
+      "id": "Data Cleaning"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "implements",
+      "source": "AutoKaggle",
+      "target": "Multi-Agent System"
+    },
+    {
+      "relation": "uses",
+      "source": "AutoKaggle",
+      "target": "Feature Engineering"
+    },
+    {
+      "relation": "uses",
+      "source": "AutoKaggle",
+      "target": "Data Cleaning"
+    },
+    {
+      "relation": "evaluates",
+      "source": "AutoKaggle",
+      "target": "Kaggle"
+    }
+  ]
+}
