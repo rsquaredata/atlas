@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="edge" attr.name="relation" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="AIDE">
+      <data key="d0">Agent</data>
+    </node>
+    <node id="Large Language Models">
+      <data key="d0">ScientificConcept</data>
+    </node>
+    <node id="Machine Learning Engineering">
+      <data key="d0">ResearchTask</data>
+    </node>
+    <node id="Kaggle evaluations">
+      <data key="d0">Benchmark</data>
+    </node>
+    <node id="OpenAI MLE-Bench">
+      <data key="d0">Benchmark</data>
+    </node>
+    <node id="METRs RE-Bench">
+      <data key="d0">Benchmark</data>
+    </node>
+    <edge source="AIDE" target="Large Language Models">
+      <data key="d1">uses</data>
+    </edge>
+    <edge source="AIDE" target="Machine Learning Engineering">
+      <data key="d1">frames</data>
+    </edge>
+    <edge source="AIDE" target="Kaggle evaluations">
+      <data key="d1">evaluates</data>
+    </edge>
+    <edge source="AIDE" target="OpenAI MLE-Bench">
+      <data key="d1">evaluates</data>
+    </edge>
+    <edge source="AIDE" target="METRs RE-Bench">
+      <data key="d1">evaluates</data>
+    </edge>
+  </graph>
+</graphml>

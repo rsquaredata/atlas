@@ -1,0 +1,58 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "entity_type": "Agent",
+      "id": "AIDE"
+    },
+    {
+      "entity_type": "ScientificConcept",
+      "id": "Large Language Models"
+    },
+    {
+      "entity_type": "ResearchTask",
+      "id": "Machine Learning Engineering"
+    },
+    {
+      "entity_type": "Benchmark",
+      "id": "Kaggle evaluations"
+    },
+    {
+      "entity_type": "Benchmark",
+      "id": "OpenAI MLE-Bench"
+    },
+    {
+      "entity_type": "Benchmark",
+      "id": "METRs RE-Bench"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "uses",
+      "source": "AIDE",
+      "target": "Large Language Models"
+    },
+    {
+      "relation": "frames",
+      "source": "AIDE",
+      "target": "Machine Learning Engineering"
+    },
+    {
+      "relation": "evaluates",
+      "source": "AIDE",
+      "target": "Kaggle evaluations"
+    },
+    {
+      "relation": "evaluates",
+      "source": "AIDE",
+      "target": "OpenAI MLE-Bench"
+    },
+    {
+      "relation": "evaluates",
+      "source": "AIDE",
+      "target": "METRs RE-Bench"
+    }
+  ]
+}
