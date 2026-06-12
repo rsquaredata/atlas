@@ -1,0 +1,53 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "entity_type": "Organization",
+      "id": "Microsoft"
+    },
+    {
+      "entity_type": "Organization",
+      "id": "OpenAI"
+    },
+    {
+      "entity_type": "Product",
+      "id": "GPT-4"
+    },
+    {
+      "entity_type": "Product",
+      "id": "AutoKaggle"
+    },
+    {
+      "entity_type": "Technology",
+      "id": "Multi-Agent System"
+    },
+    {
+      "entity_type": "Benchmark",
+      "id": "MLE-Bench"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "invested in",
+      "source": "Microsoft",
+      "target": "OpenAI"
+    },
+    {
+      "relation": "developed",
+      "source": "OpenAI",
+      "target": "GPT-4"
+    },
+    {
+      "relation": "uses",
+      "source": "AutoKaggle",
+      "target": "Multi-Agent System"
+    },
+    {
+      "relation": "was evaluated on",
+      "source": "AutoKaggle",
+      "target": "MLE-Bench"
+    }
+  ]
+}

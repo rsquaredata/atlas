@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="edge" attr.name="relation" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="Microsoft">
+      <data key="d0">Organization</data>
+    </node>
+    <node id="OpenAI">
+      <data key="d0">Organization</data>
+    </node>
+    <node id="GPT-4">
+      <data key="d0">Product</data>
+    </node>
+    <node id="AutoKaggle">
+      <data key="d0">Product</data>
+    </node>
+    <node id="Multi-Agent System">
+      <data key="d0">Technology</data>
+    </node>
+    <node id="MLE-Bench">
+      <data key="d0">Benchmark</data>
+    </node>
+    <edge source="Microsoft" target="OpenAI">
+      <data key="d1">invested in</data>
+    </edge>
+    <edge source="OpenAI" target="GPT-4">
+      <data key="d1">developed</data>
+    </edge>
+    <edge source="AutoKaggle" target="Multi-Agent System">
+      <data key="d1">uses</data>
+    </edge>
+    <edge source="AutoKaggle" target="MLE-Bench">
+      <data key="d1">was evaluated on</data>
+    </edge>
+  </graph>
+</graphml>
