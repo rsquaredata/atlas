@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="edge" attr.name="relation" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="CAMEL">
+      <data key="d0">Framework</data>
+    </node>
+    <node id="communicative agent framework">
+      <data key="d0">Framework</data>
+    </node>
+    <node id="role-playing">
+      <data key="d0">ScientificConcept</data>
+    </node>
+    <node id="inception prompting">
+      <data key="d0">ScientificConcept</data>
+    </node>
+    <node id="conversational data">
+      <data key="d0">Dataset</data>
+    </node>
+    <node id="conversational language models">
+      <data key="d0">Model</data>
+    </node>
+    <node id="multi-agent systems">
+      <data key="d0">ScientificConcept</data>
+    </node>
+    <node id="instruction-following cooperation">
+      <data key="d0">ResearchTask</data>
+    </node>
+    <node id="communicative agents">
+      <data key="d0">Agent</data>
+    </node>
+    <edge source="CAMEL" target="communicative agent framework">
+      <data key="d1">proposes</data>
+    </edge>
+    <edge source="communicative agent framework" target="role-playing">
+      <data key="d1">uses</data>
+    </edge>
+    <edge source="communicative agent framework" target="inception prompting">
+      <data key="d1">uses</data>
+    </edge>
+    <edge source="communicative agent framework" target="conversational data">
+      <data key="d1">generates</data>
+    </edge>
+    <edge source="communicative agent framework" target="instruction-following cooperation">
+      <data key="d1">evaluates</data>
+    </edge>
+    <edge source="communicative agent framework" target="multi-agent systems">
+      <data key="d1">studies</data>
+    </edge>
+    <edge source="communicative agent framework" target="conversational language models">
+      <data key="d1">investigates</data>
+    </edge>
+  </graph>
+</graphml>

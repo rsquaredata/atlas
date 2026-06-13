@@ -1,0 +1,80 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "entity_type": "Framework",
+      "id": "CAMEL"
+    },
+    {
+      "entity_type": "Framework",
+      "id": "communicative agent framework"
+    },
+    {
+      "entity_type": "ScientificConcept",
+      "id": "role-playing"
+    },
+    {
+      "entity_type": "ScientificConcept",
+      "id": "inception prompting"
+    },
+    {
+      "entity_type": "Dataset",
+      "id": "conversational data"
+    },
+    {
+      "entity_type": "Model",
+      "id": "conversational language models"
+    },
+    {
+      "entity_type": "ScientificConcept",
+      "id": "multi-agent systems"
+    },
+    {
+      "entity_type": "ResearchTask",
+      "id": "instruction-following cooperation"
+    },
+    {
+      "entity_type": "Agent",
+      "id": "communicative agents"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "proposes",
+      "source": "CAMEL",
+      "target": "communicative agent framework"
+    },
+    {
+      "relation": "uses",
+      "source": "communicative agent framework",
+      "target": "role-playing"
+    },
+    {
+      "relation": "uses",
+      "source": "communicative agent framework",
+      "target": "inception prompting"
+    },
+    {
+      "relation": "generates",
+      "source": "communicative agent framework",
+      "target": "conversational data"
+    },
+    {
+      "relation": "evaluates",
+      "source": "communicative agent framework",
+      "target": "instruction-following cooperation"
+    },
+    {
+      "relation": "studies",
+      "source": "communicative agent framework",
+      "target": "multi-agent systems"
+    },
+    {
+      "relation": "investigates",
+      "source": "communicative agent framework",
+      "target": "conversational language models"
+    }
+  ]
+}
