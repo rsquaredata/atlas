@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="edge" attr.name="relation" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="Voyager">
+      <data key="d0">Agent</data>
+    </node>
+    <node id="LLM">
+      <data key="d0">ScientificConcept</data>
+    </node>
+    <node id="Minecraft">
+      <data key="d0">ResearchTask</data>
+    </node>
+    <node id="GPT-4">
+      <data key="d0">Model</data>
+    </node>
+    <node id="automatic curriculum">
+      <data key="d0">ScientificConcept</data>
+    </node>
+    <node id="skill library">
+      <data key="d0">ScientificConcept</data>
+    </node>
+    <node id="iterative prompting mechanism">
+      <data key="d0">ScientificConcept</data>
+    </node>
+    <node id="blackbox queries">
+      <data key="d0">ScientificConcept</data>
+    </node>
+    <node id="in-context lifelong learning">
+      <data key="d0">ScientificConcept</data>
+    </node>
+    <node id="code optimization">
+      <data key="d0">ScientificConcept</data>
+    </node>
+    <node id="environment feedback" />
+    <node id="execution errors" />
+    <node id="self-verification" />
+    <edge source="Voyager" target="LLM">
+      <data key="d1">uses</data>
+    </edge>
+    <edge source="Voyager" target="automatic curriculum">
+      <data key="d1">implements</data>
+    </edge>
+    <edge source="Voyager" target="skill library">
+      <data key="d1">implements</data>
+    </edge>
+    <edge source="Voyager" target="iterative prompting mechanism">
+      <data key="d1">implements</data>
+    </edge>
+    <edge source="Voyager" target="GPT-4">
+      <data key="d1">interacts</data>
+    </edge>
+    <edge source="Voyager" target="code optimization">
+      <data key="d1">automates</data>
+    </edge>
+    <edge source="Voyager" target="in-context lifelong learning">
+      <data key="d1">evaluates</data>
+    </edge>
+    <edge source="iterative prompting mechanism" target="environment feedback">
+      <data key="d1">incorporates</data>
+    </edge>
+    <edge source="iterative prompting mechanism" target="execution errors">
+      <data key="d1">incorporates</data>
+    </edge>
+    <edge source="iterative prompting mechanism" target="self-verification">
+      <data key="d1">incorporates</data>
+    </edge>
+  </graph>
+</graphml>

@@ -1,0 +1,108 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "entity_type": "Agent",
+      "id": "Voyager"
+    },
+    {
+      "entity_type": "ScientificConcept",
+      "id": "LLM"
+    },
+    {
+      "entity_type": "ResearchTask",
+      "id": "Minecraft"
+    },
+    {
+      "entity_type": "Model",
+      "id": "GPT-4"
+    },
+    {
+      "entity_type": "ScientificConcept",
+      "id": "automatic curriculum"
+    },
+    {
+      "entity_type": "ScientificConcept",
+      "id": "skill library"
+    },
+    {
+      "entity_type": "ScientificConcept",
+      "id": "iterative prompting mechanism"
+    },
+    {
+      "entity_type": "ScientificConcept",
+      "id": "blackbox queries"
+    },
+    {
+      "entity_type": "ScientificConcept",
+      "id": "in-context lifelong learning"
+    },
+    {
+      "entity_type": "ScientificConcept",
+      "id": "code optimization"
+    },
+    {
+      "id": "environment feedback"
+    },
+    {
+      "id": "execution errors"
+    },
+    {
+      "id": "self-verification"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "uses",
+      "source": "Voyager",
+      "target": "LLM"
+    },
+    {
+      "relation": "implements",
+      "source": "Voyager",
+      "target": "automatic curriculum"
+    },
+    {
+      "relation": "implements",
+      "source": "Voyager",
+      "target": "skill library"
+    },
+    {
+      "relation": "implements",
+      "source": "Voyager",
+      "target": "iterative prompting mechanism"
+    },
+    {
+      "relation": "interacts",
+      "source": "Voyager",
+      "target": "GPT-4"
+    },
+    {
+      "relation": "automates",
+      "source": "Voyager",
+      "target": "code optimization"
+    },
+    {
+      "relation": "evaluates",
+      "source": "Voyager",
+      "target": "in-context lifelong learning"
+    },
+    {
+      "relation": "incorporates",
+      "source": "iterative prompting mechanism",
+      "target": "environment feedback"
+    },
+    {
+      "relation": "incorporates",
+      "source": "iterative prompting mechanism",
+      "target": "execution errors"
+    },
+    {
+      "relation": "incorporates",
+      "source": "iterative prompting mechanism",
+      "target": "self-verification"
+    }
+  ]
+}
