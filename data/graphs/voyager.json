@@ -8,16 +8,12 @@
       "id": "Voyager"
     },
     {
-      "entity_type": "ScientificConcept",
-      "id": "LLM"
+      "entity_type": "Agent",
+      "id": "LLM-powered embodied lifelong learning agent"
     },
     {
       "entity_type": "ResearchTask",
       "id": "Minecraft"
-    },
-    {
-      "entity_type": "Model",
-      "id": "GPT-4"
     },
     {
       "entity_type": "ScientificConcept",
@@ -28,11 +24,15 @@
       "id": "skill library"
     },
     {
-      "entity_type": "ScientificConcept",
+      "entity_type": "Method",
       "id": "iterative prompting mechanism"
     },
     {
-      "entity_type": "ScientificConcept",
+      "entity_type": "Model",
+      "id": "GPT-4"
+    },
+    {
+      "entity_type": "Method",
       "id": "blackbox queries"
     },
     {
@@ -41,7 +41,15 @@
     },
     {
       "entity_type": "ScientificConcept",
-      "id": "code optimization"
+      "id": "tech tree milestones"
+    },
+    {
+      "entity_type": "Dataset",
+      "id": "codebase"
+    },
+    {
+      "entity_type": "Dataset",
+      "id": "prompts"
     },
     {
       "id": "environment feedback"
@@ -57,7 +65,17 @@
     {
       "relation": "uses",
       "source": "Voyager",
-      "target": "LLM"
+      "target": "LLM-powered embodied lifelong learning agent"
+    },
+    {
+      "relation": "uses",
+      "source": "Voyager",
+      "target": "GPT-4"
+    },
+    {
+      "relation": "uses",
+      "source": "Voyager",
+      "target": "blackbox queries"
     },
     {
       "relation": "implements",
@@ -75,19 +93,24 @@
       "target": "iterative prompting mechanism"
     },
     {
-      "relation": "interacts",
+      "relation": "evaluates",
       "source": "Voyager",
-      "target": "GPT-4"
-    },
-    {
-      "relation": "automates",
-      "source": "Voyager",
-      "target": "code optimization"
+      "target": "in-context lifelong learning"
     },
     {
       "relation": "evaluates",
       "source": "Voyager",
-      "target": "in-context lifelong learning"
+      "target": "tech tree milestones"
+    },
+    {
+      "relation": "generates",
+      "source": "Voyager",
+      "target": "codebase"
+    },
+    {
+      "relation": "generates",
+      "source": "Voyager",
+      "target": "prompts"
     },
     {
       "relation": "incorporates",
