@@ -1,0 +1,90 @@
+Concept A,Concept B,Similarity
+large language model,large language models,0.9664972
+multi-agent system,multi-agent systems,0.9654622
+llm-as-agent,llm-based agent,0.92152077
+communicative agent framework,communicative agents,0.88339055
+frontier large language models,large language models,0.84802437
+frontier large language models,large language model,0.8285035
+llm-based agent,llm-based multi-agent systems,0.8079608
+llm-based multi-agent systems,multi-agent systems,0.76833117
+llm-based multi-agent systems,multi-agent system,0.75471866
+api-based llms,open-sourced llms,0.75183487
+llm-as-agent,llm-based multi-agent systems,0.74133265
+agent-computer interface,multi-agent system,0.7247398
+language model agent,large language model,0.72466165
+conversational language models,large language models,0.7114971
+conversational data,conversational language models,0.69771934
+language model agent,large language models,0.6817878
+large language model,transformer-based language modeling,0.6788052
+conversational language models,large language model,0.6747046
+agent workflow,agent-computer interface,0.6738309
+agent-computer interface,ai agents,0.6695256
+large language models,transformer-based language modeling,0.66848755
+llm-based agent,open-sourced llms,0.65937626
+agent-computer interface,multi-agent systems,0.65656525
+api-based llms,llm-based agent,0.654119
+agent workflow,multi-agent system,0.65281594
+language model agent,transformer-based language modeling,0.65182054
+ai agents,multi-agent system,0.6514053
+ai agents,machine learning engineering agent,0.6449552
+communicative agent framework,language model agent,0.6390331
+kaggle competitions,kaggle evaluations,0.6389116
+ai agents,communicative agents,0.62512666
+ai agents,multi-agent systems,0.61958295
+ai agents,language model agent,0.6194687
+iterative prompting mechanism,prompts,0.6164554
+conversational language models,language model agent,0.61175644
+in-context lifelong learning,llm-powered embodied lifelong learning agent,0.61128306
+api-based llms,llm-based multi-agent systems,0.6015501
+agent workflow,ai agents,0.60145175
+code execution,code optimization,0.5997845
+frontier large language models,language model agent,0.5985576
+code optimization,code training,0.5984402
+frontier large language models,transformer-based language modeling,0.596323
+communicative agents,language model agent,0.59533703
+conversational language models,frontier large language models,0.58992946
+agent-computer interface,communicative agent framework,0.58899516
+code training,codebase,0.5829645
+agent-computer interface,communicative agents,0.5819149
+agent workflow,multi-agent systems,0.5792531
+code execution,instruction following,0.5759835
+llm-based agent,multi-agent system,0.57442915
+agent-computer interface,llm-based agent,0.57391655
+llm-as-agent,open-sourced llms,0.5711328
+metrs re-bench,swe-bench,0.56899863
+openai mle-bench,swe-bench,0.56793034
+ai agents,llm-based agent,0.56452787
+api-based llms,llm-as-agent,0.5631472
+conversational language models,transformer-based language modeling,0.5612957
+agent workflow,llm-based agent,0.5609323
+instruction following,instruction-following cooperation,0.5575998
+ai agents,communicative agent framework,0.5564214
+ai agents,ai-driven exploration,0.55550617
+llm-based agent,llm-powered embodied lifelong learning agent,0.5548924
+code execution,code training,0.5514635
+communicative agents,multi-agent systems,0.55015326
+communicative agents,multi-agent system,0.549975
+inception prompting,iterative prompting mechanism,0.54919016
+agent workflow,language model agent,0.5452895
+agent-computer interface,llm-based multi-agent systems,0.54396206
+communicative agent framework,multi-agent system,0.5425135
+communicative agent framework,multi-agent systems,0.5413635
+instruction-following cooperation,iterative prompting mechanism,0.53792846
+agent-computer interface,language model agent,0.5368552
+agent workflow,workflow orchestration,0.5364918
+llm-based multi-agent systems,open-sourced llms,0.53565574
+agent workflow,llm-as-agent,0.5326713
+code execution,execution errors,0.5321362
+llm-based agent,machine learning engineering agent,0.5299716
+llm-based agent,multi-agent systems,0.52889544
+ai agents,llm-as-agent,0.52424073
+llm-as-agent,multi-agent system,0.5205481
+agent-computer interface,llm-as-agent,0.51929915
+language model agent,llm-based agent,0.51697433
+language model agent,machine learning engineering agent,0.51334035
+agent workflow,machine learning engineering agent,0.5124823
+tech tree milestones,tree search,0.51028407
+communicative agents,conversational data,0.5054141
+llm-as-agent,llm-powered embodied lifelong learning agent,0.50405306
+agent workflow,communicative agent framework,0.5005988
+communicative agents,conversational language models,0.5002856
