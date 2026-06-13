@@ -6,13 +6,16 @@
     <node id="agent-computer interface" />
     <node id="ai agents" />
     <node id="ai-driven exploration" />
+    <node id="api-based llms" />
     <node id="assembly line paradigm" />
     <node id="automated reviewer" />
     <node id="code execution" />
     <node id="code optimization" />
+    <node id="code training" />
     <node id="collaborative software engineering benchmarks" />
     <node id="data cleaning" />
     <node id="debugging" />
+    <node id="decision-making" />
     <node id="diffusion modeling" />
     <node id="experiment tracking" />
     <node id="feature engineering" />
@@ -21,12 +24,15 @@
     <node id="human-in-the-loop" />
     <node id="humanevalfix" />
     <node id="infiagent-dabench" />
+    <node id="instruction following" />
     <node id="integrated development environment" />
     <node id="kaggle competitions" />
     <node id="kaggle evaluations" />
     <node id="language model agent" />
+    <node id="large language model" />
     <node id="large language models" />
     <node id="learning dynamics" />
+    <node id="llm-as-agent" />
     <node id="llm-based agent" />
     <node id="llm-based multi-agent systems" />
     <node id="machine learning engineering agent" />
@@ -34,11 +40,14 @@
     <node id="metrs re-bench" />
     <node id="modeling" />
     <node id="multi-agent system" />
+    <node id="multi-round alignment data" />
     <node id="open-ended scientific discovery" />
+    <node id="open-sourced llms" />
     <node id="openai mle-bench" />
     <node id="opendevin" />
     <node id="pass@1" />
     <node id="programmable node generation" />
+    <node id="reasoning" />
     <node id="sandboxed environments" />
     <node id="simulated review process" />
     <node id="standardized operating procedures" />
@@ -66,6 +75,9 @@
     <edge source="agent workflow" target="workflow orchestration">
       <data key="d0">0.5364918112754822</data>
     </edge>
+    <edge source="agent workflow" target="llm-as-agent">
+      <data key="d0">0.5326712727546692</data>
+    </edge>
     <edge source="agent workflow" target="machine learning engineering agent">
       <data key="d0">0.5124822854995728</data>
     </edge>
@@ -84,6 +96,9 @@
     <edge source="agent-computer interface" target="language model agent">
       <data key="d0">0.5368552207946777</data>
     </edge>
+    <edge source="agent-computer interface" target="llm-as-agent">
+      <data key="d0">0.5192991495132446</data>
+    </edge>
     <edge source="ai agents" target="multi-agent system">
       <data key="d0">0.6514052748680115</data>
     </edge>
@@ -99,11 +114,38 @@
     <edge source="ai agents" target="ai-driven exploration">
       <data key="d0">0.55550616979599</data>
     </edge>
+    <edge source="ai agents" target="llm-as-agent">
+      <data key="d0">0.5242407321929932</data>
+    </edge>
+    <edge source="api-based llms" target="open-sourced llms">
+      <data key="d0">0.7518348693847656</data>
+    </edge>
+    <edge source="api-based llms" target="llm-based agent">
+      <data key="d0">0.6541190147399902</data>
+    </edge>
+    <edge source="api-based llms" target="llm-based multi-agent systems">
+      <data key="d0">0.6015501022338867</data>
+    </edge>
+    <edge source="api-based llms" target="llm-as-agent">
+      <data key="d0">0.5631471872329712</data>
+    </edge>
     <edge source="code execution" target="code optimization">
       <data key="d0">0.5997844934463501</data>
     </edge>
+    <edge source="code execution" target="instruction following">
+      <data key="d0">0.5759835243225098</data>
+    </edge>
+    <edge source="code execution" target="code training">
+      <data key="d0">0.5514634847640991</data>
+    </edge>
+    <edge source="code optimization" target="code training">
+      <data key="d0">0.5984401702880859</data>
+    </edge>
     <edge source="frontier large language models" target="large language models">
       <data key="d0">0.8480243682861328</data>
+    </edge>
+    <edge source="frontier large language models" target="large language model">
+      <data key="d0">0.8285034894943237</data>
     </edge>
     <edge source="frontier large language models" target="language model agent">
       <data key="d0">0.5985575914382935</data>
@@ -113,6 +155,9 @@
     </edge>
     <edge source="kaggle competitions" target="kaggle evaluations">
       <data key="d0">0.6389116048812866</data>
+    </edge>
+    <edge source="language model agent" target="large language model">
+      <data key="d0">0.724661648273468</data>
     </edge>
     <edge source="language model agent" target="large language models">
       <data key="d0">0.6817877888679504</data>
@@ -126,11 +171,32 @@
     <edge source="language model agent" target="machine learning engineering agent">
       <data key="d0">0.5133403539657593</data>
     </edge>
+    <edge source="large language model" target="large language models">
+      <data key="d0">0.9664971828460693</data>
+    </edge>
+    <edge source="large language model" target="transformer-based language modeling">
+      <data key="d0">0.6788051724433899</data>
+    </edge>
     <edge source="large language models" target="transformer-based language modeling">
       <data key="d0">0.668487548828125</data>
     </edge>
+    <edge source="llm-as-agent" target="llm-based agent">
+      <data key="d0">0.9215207695960999</data>
+    </edge>
+    <edge source="llm-as-agent" target="llm-based multi-agent systems">
+      <data key="d0">0.7413326501846313</data>
+    </edge>
+    <edge source="llm-as-agent" target="open-sourced llms">
+      <data key="d0">0.5711327791213989</data>
+    </edge>
+    <edge source="llm-as-agent" target="multi-agent system">
+      <data key="d0">0.5205481052398682</data>
+    </edge>
     <edge source="llm-based agent" target="llm-based multi-agent systems">
       <data key="d0">0.8079608082771301</data>
+    </edge>
+    <edge source="llm-based agent" target="open-sourced llms">
+      <data key="d0">0.6593762636184692</data>
     </edge>
     <edge source="llm-based agent" target="multi-agent system">
       <data key="d0">0.5744291543960571</data>
@@ -140,6 +206,9 @@
     </edge>
     <edge source="llm-based multi-agent systems" target="multi-agent system">
       <data key="d0">0.7547186613082886</data>
+    </edge>
+    <edge source="llm-based multi-agent systems" target="open-sourced llms">
+      <data key="d0">0.5356557369232178</data>
     </edge>
     <edge source="metrs re-bench" target="swe-bench">
       <data key="d0">0.5689986348152161</data>
