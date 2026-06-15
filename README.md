@@ -65,17 +65,21 @@ The system follows a multi-stage agentic pipeline::
 ```
 Scientific Paper
 ↓
-Entity Extraction Agent
+LLM Extraction
 ↓
-Method Extraction Agent
+Structured JSON
 ↓
-Relationship Extraction Agent
+Knowledge Graph Construction
 ↓
-Knowledge Graph Builder
+Graph Comparison
 ↓
-Consistency Review Agent
+Embedding-based Alignment
 ↓
-Human Validation
+Concept Graph
+↓
+Community Detection
+↓
+Knowledge Exploration
 ```
 
 Each agent is responsible for a specific knowledge extraction task.
