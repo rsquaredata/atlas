@@ -169,24 +169,74 @@ ATLAS/
 
 ATLAS is currently under active development.
 
-Current capabilities
+### Current Results
 
-✓ LLM-based entity extraction
-✓ Relationship extraction
-✓ Ontology-constrained filtering
-✓ Knowledge graph construction
+The current prototype has been evaluated on a growing corpus of scientific papers related to agentic AI systems, automated machine learning, and LLM-based software engineering agents.
+
+#### Knowledge Graph Construction
+
+ATLAS successfully extracts:
+
+* Named systems and frameworks
+* Scientific concepts
+* Benchmarks and datasets
+* Technical relationships
+
+and converts them into lightweight knowledge graphs.
+
+#### Cross-Paper Concept Alignment
+
+Using sentence embeddings and semantic similarity analysis, ATLAS identifies related concepts across papers, even when different terminology is used.
+
+Examples include:
+
+* Large Language Models ↔ Frontier Large Language Models
+* Multi-Agent System ↔ LLM-Based Multi-Agent Systems
+* Kaggle Competitions ↔ Kaggle Evaluations
+
+#### Emerging Research Communities
+
+Experiments conducted on an initial corpus revealed the emergence of several thematic communities:
+
+* Agent Systems and Multi-Agent Collaboration
+* LLM-based Agents
+* Prompting and Code Generation
+* Benchmarking and Evaluation
+
+This suggests that meaningful scientific structure can emerge from automatically extracted concepts without manually defined ontologies.
+
+#### Observed Limitations
+
+Semantic similarity successfully captures:
+
+* synonymy
+* near-synonymy
+* concept variants
+
+However, it struggles to capture higher-level knowledge relations such as:
+
+* Agent → Reasoning
+* Agent → Decision-Making
+* Agent → Instruction Following
+
+These findings motivate future work on ontology construction and relation discovery beyond embedding similarity alone.
+
 
 ---
 
-## Perspective
+## ## Future Work
 
-Future work may include:
+Planned research directions include:
 
-□ Relation normalization
-□ Entity linking
-□ Graph validation
-□ Multi-document graph merging
-□ Agent-based extraction workflow
+* Concept canonicalization
+* Automatic ontology construction
+* Cross-paper knowledge graph merging
+* Community detection and graph analytics
+* Relation discovery beyond semantic similarity
+* Benchmark evolution tracking
+* Agent-assisted literature mapping
+
+A longer-term objective is to investigate whether agentic systems can automatically build and maintain dynamic scientific knowledge maps from continuously evolving research literature.
 
 ---
 
