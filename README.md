@@ -27,15 +27,57 @@ Scientific publications contain large amounts of valuable information regarding 
 ATLAS explores whether an agentic workflow can assist in transforming scientific documents into structured knowledge representations suitable for downstream analysis.
 
 The project focuses on literature related to machine learning, agentic AI, and automated data science systems.
+
+---
+
+## Quick Start
+
+### Installation
+
+```bash
+git clone https://github.com/rsquaredata/atlas.git
+
+cd atlas
+
+pip install -e .
+```
+
+### Configuration
+
+Create a `.env` file at the project root:
+
+```
+MISTRAL_API_KEY=your_mistral_api_key
+```
+
+### Process a Corpus
+
+```bash
+atlas process data/papers
+```
+
+This will:
+
+- extract entities and relationships from scientific papers
+- generate structures JSON outputs
+- build individual knowledge graphs
+- export GraphML files for further anlaysis
+
+Generate files are saved under:
+
+`data/graphs`
+
 ---
 
 ## Research Question
 
-Beyond simple document summarization, ATLAS investigates the following question:
+ATLAS investigates the following question:
 
-> To what extent can multi-agent LLM systems reliably extract and organize scientific knowledge into structured graph representations while maintaining factual consistency?
+> Can meaningful scientific structure emerge automatically from LLM-extracted knowledge graphs built from research literature?
 
-The project aims to evaluate both extraction quality and structural coherence of generated knowledge graphs.
+More specifically, the project explores whether scientific concepts, methods, benchmarks, and workflows can be automatically extracted, aligned, and organized into coherent semantic structures that reveal emerging research themes across multiple papers.
+
+The long-term objective is to evaluate whether such structures can support literature exploration, knowledge discovery, and automated scientific mapping.
 
 ---
 
@@ -57,6 +99,8 @@ The emphasis is placed on:
 - Structured evaluation
 
 Rather than treating LLM outputs as final answers, ATLAS treats them as intermediate knowledge artifacts subject to validation and refinement.
+
+---
 
 ## System Architecture
 
@@ -120,7 +164,7 @@ These elements are represented as a lightweight knowledge graph.
 ```
 Literature Collection
 ↓
-Document Processinf
+Document Processing
 ↓
 Agentic Extraction
 ↓
@@ -228,7 +272,7 @@ These findings motivate future work on ontology construction and relation discov
 
 ---
 
-## ## Future Work
+## Future Work
 
 Planned research directions include:
 
@@ -259,6 +303,6 @@ The extracted knowledge should not be considered authoritative without human ver
 
 <div align="center">
 
-ATLAS - From Scientific Text to Structured Knowledge
+ATLAS - Knowledge Graph Construction and Semantic Mapping of Agentic AI Literature
 
 </div>
